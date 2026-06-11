@@ -1,6 +1,6 @@
 #Divisible by 11:
 
-no = 1001045
+no =272822
 ones= 0
 tens= 0
 
@@ -17,9 +17,9 @@ else :
     print ("not divisible")
 
 
-
-#Tasks -------------------------------
 #
+#Tasks ------------------`-------------
+
 #no = 1234
 #total = 0
 #while no>1:
@@ -27,7 +27,7 @@ else :
 #    total = total + no %100
 #    no = no // 10
 #print (total)
-
+#
 
 #
 #no = 1234
@@ -39,8 +39,8 @@ else :
 #print (total)
 
 
-
+#
 #no = 123456
 #while no >0:
-#    print (no % 1000 ,end = " ")
+#    print (no % 1000 ,end = " ") # 456 123
 #    no = no //1000

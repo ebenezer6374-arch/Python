@@ -1,6 +1,7 @@
 N =11
 prime_sum = 0
 num = 2
+no1 =0
 while num<=N:
     prime = True
     i =2
@@ -10,12 +11,13 @@ while num<=N:
                 break
             i+=1
     if prime:
-        print(num)
+        print(num , end = " ")
+        print(num +2 ,end = " ")
         prime_sum +=num
 
     num +=1
 
-print (prime_sum)
+#print (prime_sum)
 
 
 #N =11
