@@ -1,5 +1,6 @@
 no =11
 Num =60
+count = 0
 
 while no <= Num:
     prime = True
@@ -11,7 +12,10 @@ while no <= Num:
         i+=1
 
     if prime:
+        count +=1
         print(no)
 
 
+
     no +=1
+print("No of prime numbers are between 11 and 60 is" , count)
