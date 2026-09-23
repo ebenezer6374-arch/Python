@@ -15,3 +15,4 @@ while j < len(name):
             i+=1
         print (letter ,count)
     j+=1
+     
